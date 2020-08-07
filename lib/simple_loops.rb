@@ -24,8 +24,9 @@ end
 
 def return_string_array(array)
   i = 0
+  return_array = []
   while i < array.length do
-    array[i].to_s
+    return_array.push(array[i].to_s)
     i += 1
   end
 end
