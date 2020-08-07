@@ -29,5 +29,6 @@ def return_string_array(array)
     return_array.push(array[i].to_s)
     i += 1
   end
+  return_array
 end
 # Write your methods here
